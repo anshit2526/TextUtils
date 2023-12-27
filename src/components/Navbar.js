@@ -1,7 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import {Link} from 'react-router-dom';
-
+import { Link } from 'react-router-dom';
 
 
 export default function Navbar(props) {
@@ -24,28 +23,10 @@ export default function Navbar(props) {
 
                     </ul>
 
-                    {/* Switch for Dark mode and light mode */}
+                    {/* Dark Mode Switch */}
                     <div className={`form-check mx-2 form-switch text-${props.mode === 'light' ? 'dark' : 'light'}`}>
                         <input onClick={props.toggleDarkMode} className="form-check-input" type="checkbox" role="switch" id="Dark-Mode" />
                         <label className="form-check-label" htmlFor="Dark-Mode">Dark Mode</label>
-                    </div>
-
-                    {/* Switch for blue theme */}
-                    <div className={`form-check mx-2 form-switch text-${props.mode === 'blue' ? 'light' : 'blue'}`}>
-                        <input onClick={props.toggleBlueMode} className="form-check-input" type="checkbox" role="switch" id="Blue-Mode" />
-                        <label className="form-check-label" htmlFor="Blue-Mode">Blue Mode</label>
-                    </div>
-
-                    {/* Switch for green theme */}
-                    <div className={`form-check mx-2 form-switch text-${props.mode === 'green' ? 'light' : 'green'}`}>
-                        <input onClick={props.toggleGreenMode} className="form-check-input" type="checkbox" role="switch" id="Green-Mode" />
-                        <label className="form-check-label" htmlFor="Green-Mode">Green Mode</label>
-                    </div>
-
-                    {/* Switch for Eye comfort theme */}
-                    <div className={`form-check mx-2 form-switch text-${props.mode === 'eyeComfort' ? 'light' : 'eyeComfort'}`}>
-                        <input onClick={props.toggleEyeComfortMode} className="form-check-input" type="checkbox" role="switch" id="Eye-comfort" />
-                        <label className="form-check-label" htmlFor="Eye-comfort">Eye Comfort Mode</label>
                     </div>
                 </div>
             </div>
