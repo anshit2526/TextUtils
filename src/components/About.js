@@ -14,7 +14,7 @@ export default function About(props) {
       <h2 className='my-3'>About us</h2>
       <div className="accordion" id="accordionExample" >
 
-        {/* First Accordian Item */}
+        {/* First Accordion Item */}
         <div className="accordion-item">
           <h2 className="accordion-header">
             <button className="accordion-button" style={myStyle} type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
@@ -28,7 +28,7 @@ export default function About(props) {
           </div>
         </div>
 
-        {/* Second Accordian Item */}
+        {/* Second Accordion Item */}
         <div className="accordion-item">
           <h2 className="accordion-header">
             <button className="accordion-button collapsed" style={myStyle} type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
@@ -42,7 +42,7 @@ export default function About(props) {
           </div>
         </div>
 
-        {/* Third Accordian Item */}
+        {/* Third Accordion Item */}
         <div className="accordion-item">
           <h2 className="accordion-header">
             <button className="accordion-button collapsed" style={myStyle} type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
