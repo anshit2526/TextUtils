@@ -1,7 +1,6 @@
-# Introduction of TextUtils
-
-TextUtils is an online word processing tool. With this tool we can count words and characters in the provided text as well as average time to read.
-
-TextUtils is easy to use and provide flexibility to switch between Light theme and dark theme. We can copy the entire text and also paste from the clipboard. Allow us to convert entire text to capital letters or small letters.
-
-This web app is built in ReactJs, designed with Bootstrap.
+<<<<<<< HEAD
+# textutils
+=======
+# textutils
+This will be provided soon...
+>>>>>>> de858a23d2e0cfdc35a7a4c04d365c82914d38ba
